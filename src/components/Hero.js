@@ -62,6 +62,7 @@ ${mobile({
     flexDirection: 'column'
 })}
 height: calc(100vh - 80px);
+max-height: calc(100vh - 80px);
 margin: 0;
 display: flex;
 align-items: center;
@@ -72,14 +73,14 @@ img {
     height: 80%;
     max-height: 600px;
     ${mobile({
-        height: '60%'
+        height: '55%'
     })}
 }
 .title {
     width: min-content;
     > p {
         ${mobile({
-            fontSize: '14px'
+            fontSize: '12px'
         })}
         font-size: 16px;
     }
@@ -142,7 +143,7 @@ img {
     white-space: nowrap; /* Keeps the content on a single line */
     &.greet {
         ${mobile({
-            fontSize: '1.5em'
+            fontSize: '1.4em'
         })}
         border-right: 3px solid #5C4033; /* The typwriter cursor */
         font-size: 1.7em;
@@ -154,7 +155,7 @@ img {
     }
     &.name {
         ${mobile({
-            fontSize: '2.5em'
+            fontSize: '2.6em'
         })}
         border-right: 5px solid #5C4033; /* The typwriter cursor */
         font-size: 3.5em;
