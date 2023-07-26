@@ -167,10 +167,15 @@ transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 .card__button {
   padding: 15px;
   border-radius: 8px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: ${props => props.theme.white};
   border: none;
   color: ${props => props.theme.brown};
   position: relative;
+  font-weight: 500;
   a {
     position: absolute;
     width: 100%;
@@ -184,7 +189,7 @@ transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 .secondary {
   background: transparent;
   color: ${props => props.theme.white};
-  border: 1px solid ${props => props.theme.white};
+  border: 2px solid ${props => props.theme.white};
   margin-left: 5px;
 }
 `

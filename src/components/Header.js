@@ -46,6 +46,7 @@ button {
 }
 .services {
     background-color: transparent;
+    color: #000000;
     border: none;
     cursor: pointer;
 }
@@ -56,6 +57,7 @@ button {
     border: 2px solid ${props => props.theme.brown};
     background: ${props => props.theme.white};
     box-shadow: 3px 3px ${props => props.theme.brown};
+    color: #000000;
     cursor: pointer;
     position: relative;
     margin: 35px 0;
