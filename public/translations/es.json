@@ -1,0 +1,58 @@
+{
+    "contactme": "contáctame",
+    "services": "servicios",
+    "greeting1": "Hola!, soy",
+    "cta_hero": "¿Listo para llevar tu negocio digital al siguiente nivel? ¡No te conviertas en un dinosaurio digital! Únete a la revolución del código conmigo y ¡juntos dominemos la tecnología! ¡Contáctame y que comiencen las aventuras de programación!",
+    "portfolio": "Portafolio",
+    "resume": "Currículum",
+    "greeting2": "¡Bienvenido! Soy Ricardo Álvarez,",
+    "about_bio": "Programador experto en desarrollo web frontend, backend y móvil. Apasionado por crear experiencias digitales fluidas, combino la creatividad con la experiencia técnica para ofrecer soluciones de vanguardia. Desde elegantes interfaces de usuario hasta robustas arquitecturas backend.",
+    "web_development": "Desarrollo Web",
+    "web_development_footer": "Creando diversos tipos de aplicaciones web, utilizando diferentes tecnologías y pilas, desde complicados sistemas de referencia en el backend hasta simples páginas de destino.",
+    "mobile_development": "Desarrollo Móvil",
+    "technologies": "Tecnologías",
+    "mobile_development_footer": "No es mi especialidad, aprendí React Native hace poco tiempo, pero tengo mucho interés en aprender y construir soluciones móviles increíbles.",
+    "web_automation": "Automatización Web",
+    "tools": "Herramientas",
+    "Services": "Servicios",
+    "web_automation_footer": "Recopilando grandes cantidades de datos y creando un robot web personalizado para completar tareas repetitivas y complejas.",
+    "automate_complex": "Automatizar acciones complejas",
+    "linux_servers": "Servidores Linux",
+    "learning": "aprendizaje",
+    "recent_work": "Trabajos Recientes",
+    "living": {
+        "title": "Living D' Nomad",
+        "desc": "(España). Desarrollo frontend (Web/Móvil) de un MVP para reservar propiedades y habitaciones, enfocado en nómadas digitales. (En curso)"
+    },
+    "getloanr": {
+        "title": "Getloanr",
+        "desc": "(EE. UU.). Desarrollo Full Stack (web) de un MVP para préstamos y préstamos de dinero digitalmente a otras personas. Me especialicé con socket.io y chats en tiempo real con este proyecto."
+    },
+    "leals": {
+        "title": "Leals",
+        "desc": "(Perú). Desarrollo backend con Node.js, aplicación móvil para ganar dinero mediante transacciones. Construí un complejo sistema de referencias. (En producción)"
+    },
+    "tanteador": {
+        "title": "Tanteador",
+        "desc": "(EE. UU., Uruguay) Desarrollo Full Stack con MERN Stack, aplicación para anotadores, se utiliza para televisión y partidos OBS. (En curso)"
+    },
+    "weekly": {
+        "title": "Weekly Schedule",
+        "desc": "(Proyecto Personal). Desarrollo Full Stack con PERN Stack (React Native). Aplicación móvil enfocada en iOS y estudiantes universitarios para ayudarles a programar sus semanas fácilmente, ofreciendo una interfaz agradable, amigable y útil. (En curso)"
+    },
+    "memory": {
+        "title": "Juego de Memoria",
+        "desc": "(Proyecto Personal). Un sencillo juego de memoria utilizando React.js con TypeScript, me gustó especialmente la interfaz de este juego."
+    },
+    "reviews": "Reseñas",
+    "review_mtickets": "El vendedor fue amable, comunicativo y trabajó en la resolución de problemas de manera colaborativa durante todo el proyecto. Me preguntó acerca de detalles que había olvidado proporcionar y entregó exactamente lo que pedí. Definitivamente trabajaré con el vendedor nuevamente y lo recomendaré a otros que necesiten trabajo de javascript, express y css.",
+    "review_alfredo_zeballos": "Fue una gran experiencia volver a trabajar con Ricardo, y trabajaré con él nuevamente. Fue un placer trabajar con Ricardo; siempre está dispuesto a ayudar y es un excelente desarrollador. Lo recomiendo a todos.",
+    "review_l8ker8": "Gran experiencia. Excelente comunicación.",
+    "review_daniel_goldman": "Ricardo ha sido realmente asombroso. Aprecio mucho el hecho de que me mantuvo constantemente actualizado sobre cómo iba el proyecto. Incluso resolvió un problema que otros 3 freelancers no pudieron, lo que significa ahorrar mucho dinero a largo plazo. Sin duda lo contrataré nuevamente, sin duda alguna. Recomendado al 200%.",
+    "review_francisco_ortiz": "Ricardo es muy talentoso: fue un placer trabajar con él en mi proyecto de React (los wireframes ya estaban diseñados, pero él también diseñó y creó el backend, lo que no es tarea fácil en absoluto). Todo eso para decir que soy cliente habitual de Fiverr y desarrolladores como Ricardo siempre me impresionan.",
+    "review_dinethkanishka": "Gracias por la ayuda. Buen trabajo.",
+    "review_avelino_puello": "Ricardo es un excelente desarrollador, presta atención a los detalles y es capaz de seguir instrucciones sin temor a hacer preguntas. Lo contrataré de nuevo.",
+    "start_project": "Comenzar un proyecto",
+    "cta_footer": "¡Esto es el comienzo de algo grande!",
+    "cta_button": "¡Comencemos!"
+}
