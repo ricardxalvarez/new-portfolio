@@ -122,7 +122,6 @@ ${mobile({
 })}
 width: 80%;
 max-width: 1000px;
-height: 300px;
 justify-content: center;
 margin: auto;
 margin-top: 80px;
@@ -165,7 +164,7 @@ position: relative;
 }
 .circles {
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -187,14 +186,15 @@ const Card = styled.div`
 position: absolute;
 background-color: ${props => props.theme.white};
 width: 100%;
-height: 100%;
+height: fit-content;
 border-radius: 15px;
 box-shadow:  0 5px 0 1px rgba(0,0,0,0.3);
 opacity: 0;
 transition: all 0.3s linear;
 ${props => props.type === 'activeSlide' && {
   opacity: '1',
-  transform: 'translateX(0)'
+  transform: 'translateX(0)',
+  position: 'relative'
 }
 }
 ${props => props.type === 'nextSlide' && {
@@ -238,7 +238,8 @@ transform: 'translateX(-20px)',
 }
 .body {
     margin: auto;
-    transform: translateY(-20%);
+    top: -50px;
+    position: relative;
     max-width: 80%;
     hr {
         border-top: 1px solid rgba(0,0,0,0.2);
@@ -246,7 +247,7 @@ transform: 'translateX(-20px)',
     }
     p {
         ${mobile({
-            fontSize: '14px'
+            fontSize: '13px'
         })}
     }
 }

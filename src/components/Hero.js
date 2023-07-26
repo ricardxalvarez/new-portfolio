@@ -1,7 +1,7 @@
 import styled, {keyframes} from 'styled-components'
 import me from '../assets/me/me-1.png'
 import resume from '../assets/resumes/resumeEng.pdf'
-import { mobile } from '../responsive'
+import { mobile, tiny } from '../responsive'
 import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
@@ -68,7 +68,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 20px;
-overflow: hidden;
 img {
     height: 80%;
     max-height: 600px;
@@ -96,6 +95,9 @@ img {
             background-color: #FFFFFF;
             color: ${props => props.theme.brown};
             border-radius: 10em;
+            ${tiny({
+                padding: '.8em 1.7em'
+            })}
             font-size: 17px;
             font-weight: 600;
             padding: 1em 2em;
@@ -113,6 +115,9 @@ img {
             }
         }
         .resume {
+            ${tiny({
+                padding: '.8em 1.7em'
+            })}
             background-color: ${props => props.theme.white};
             position: relative;
             color: ${props => props.theme.brown};
@@ -145,6 +150,9 @@ img {
         ${mobile({
             fontSize: '1.4em'
         })}
+        ${tiny({
+            fontSize: '1.2em'
+        })}
         border-right: 3px solid #5C4033; /* The typwriter cursor */
         font-size: 1.7em;
         animation: 
@@ -156,6 +164,9 @@ img {
     &.name {
         ${mobile({
             fontSize: '2.6em'
+        })}
+        ${tiny({
+            fontSize: '2.4em'
         })}
         border-right: 5px solid #5C4033; /* The typwriter cursor */
         font-size: 3.5em;

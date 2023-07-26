@@ -7,3 +7,11 @@ export const mobile = (props)=>{
     }
     `
 }
+
+export const tiny = (props) => {
+    return css`
+    @media only screen and (max-height: 600px ) and (max-width: 400px) {
+        ${props}
+    }
+    `
+}

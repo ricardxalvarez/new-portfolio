@@ -26,7 +26,7 @@
     },
     "getloanr": {
         "title": "Getloanr",
-        "desc": "(EE. UU.). Desarrollo Full Stack (web) de un MVP para préstamos y préstamos de dinero digitalmente a otras personas."
+        "desc": "(EE. UU.). Desarrollo Full Stack (web) de un MVP para préstamos de dinero digitalmente a otras personas."
     },
     "leals": {
         "title": "Leals",
@@ -38,7 +38,7 @@
     },
     "weekly": {
         "title": "Weekly Schedule",
-        "desc": "(Proyecto Personal). Desarrollo Full Stack con PERN Stack (React Native). Aplicación móvil enfocada en iOS y estudiantes universitarios para ayudarles a programar sus semanas fácilmente, ofreciendo una interfaz agradable, amigable y útil. (En curso)"
+        "desc": "(Proyecto Personal). Desarrollo PERN Stack (React Native). Aplicación enfocada en estudiantes universitarios para ayudarles a programar sus semanas fácilmente, dando una interfaz amigable y útil. (En curso)"
     },
     "memory": {
         "title": "Juego de Memoria",

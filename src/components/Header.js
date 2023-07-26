@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import { mobile } from "../responsive";
+import { mobile, tiny } from "../responsive";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
@@ -73,5 +73,4 @@ button {
         transform: translate(3px, 3px);
     }
 }
-/* background-color: ${props => props.theme.brown}; */
 `

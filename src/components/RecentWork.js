@@ -159,6 +159,10 @@ transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 .card__description {
   margin: 10px 0 10px;
   font-size: 14px;
+  ${mobile({
+    fontSize: '12px',
+    lineHeight: '1.2'
+  })}
   color: ${props => props.theme.white};
   font-weight: 500;
   line-height: 1.4;
