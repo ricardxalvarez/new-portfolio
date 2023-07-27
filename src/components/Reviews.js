@@ -22,7 +22,7 @@ export default function Reviews() {
         },
         {
             avatar: 'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/profile/photo/b87a0b6731977097e34a222725a0bc29-1573760069834/423dbac5-1e7d-40d6-98d3-dcd5f8b3a5ed.png',
-            name: 'Alfredo Zeballos',
+            name: 'Alfredo Zevallos',
             country: 'PE',
             review: t('review_alfredo_zeballos')
         },
@@ -108,7 +108,7 @@ const Main = styled.section`
 width: 100%;
 background-color: ${props => props.theme.brown};
 padding: 5%;
-padding-bottom: calc(5% + 55px);
+padding-bottom: calc(5% + 85px);
 h1 {
     text-align: center;
     margin-bottom: 40px;
@@ -164,7 +164,7 @@ position: relative;
 }
 .circles {
     position: absolute;
-    bottom: -50px;
+    bottom: -80px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
