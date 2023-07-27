@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import { mobile, tiny } from "../responsive";
+import { mobile } from "../responsive";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {

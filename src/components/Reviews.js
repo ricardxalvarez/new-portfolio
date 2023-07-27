@@ -108,7 +108,7 @@ const Main = styled.section`
 width: 100%;
 background-color: ${props => props.theme.brown};
 padding: 5%;
-padding-bottom: calc(5% + 45px);
+padding-bottom: calc(5% + 55px);
 h1 {
     text-align: center;
     margin-bottom: 40px;
@@ -164,7 +164,7 @@ position: relative;
 }
 .circles {
     position: absolute;
-    bottom: -40px;
+    bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -207,7 +207,7 @@ transform: 'translateX(-20px)',
 } 
 .profile {
     transform: translateY(-50%);
-    position: initial;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
